@@ -1,0 +1,1243 @@
+!!! 5
+%html
+    %head
+        %meta{:charset => "UTF-8"}
+        %link{:rel => "icon", :href => "img/logo1.svg", :type => "image/svg"}
+        %link{:rel => "stylesheet", :href => "https://unpkg.com/swiper@7/swiper-bundle.min.css"}
+        %link{:rel => "stylesheet", :href => "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css", :crossorigin => "anonymous", :integrity => "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"}
+        %link{:rel => "stylesheet", :href => "style.css"}
+        %link{:rel => "stylesheet", :href => "style_ak.css"}
+        %link{:rel => "stylesheet", :href => "style_pod.css"}
+        %link{:rel => "stylesheet", :href => "style_ab.css"}
+        %link{:rel => "stylesheet", :href => "style_head.css"}
+        %title Label Via
+    %body
+        .cont_ob
+
+            = Haml::Engine.new(File.read('./head.haml')).render
+            
+            %a{:href => "https://www.mann-ivanov-ferber.ru/let-it-snow/"}
+                .rec
+                
+            .cont
+                .gri{:id => "new"}
+                .text Новинки
+                .swiper.books-slider
+                    .swiper-wrapper
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book1"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-1.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book2"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-2.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book3"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-3.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book4"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-4.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book5"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-5.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book6"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-6.png", :alt => ""}             
+                    .swiper-button-next
+                    .swiper-button-prev
+                
+                .gri{:id => "child"}
+                .text Детские книги
+                .swiper.books-slider
+                    .swiper-wrapper
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book7"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-7.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book8"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-8.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book9"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-9.jpg", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book10"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-10.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book11"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-11.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book12"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-12.png", :alt => ""}             
+                    .swiper-button-next
+                    .swiper-button-prev
+
+            = Haml::Engine.new(File.read('./pod.haml')).render
+
+            .cont
+                .gri{:id => "bes"}
+                .text Бестселлеры
+                .swiper.books-slider
+                    .swiper-wrapper
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book13"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-1.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book14"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-2.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book15"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-3.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book16"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-4.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book17"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-5.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book18"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-6.png", :alt => ""}             
+                    .swiper-button-next
+                    .swiper-button-prev
+
+            = Haml::Engine.new(File.read('./ak.haml')).render    
+
+            .cont
+                .gri{:id => "self"}
+                .text Саморазвитие
+                .swiper.books-slider
+                    .swiper-wrapper
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book13"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-7.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book14"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-8.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book15"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-9.jpg", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book16"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-10.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book17"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-11.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book18"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-12.png", :alt => ""}             
+                    .swiper-button-next
+                    .swiper-button-prev
+                .gri{:id => "art"}
+                .text Культура и искусство
+                .swiper.books-slider
+                    .swiper-wrapper
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book13"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-1.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book14"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-2.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book15"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-3.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book16"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-4.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book17"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-5.png", :alt => ""}
+                        %a.swiper-slide{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_book18"}}
+                            .image-slider
+                                %img.img{:src => "img/books/book-6.png", :alt => ""}             
+                    .swiper-button-next
+                    .swiper-button-prev
+            
+            = Haml::Engine.new(File.read('./ab.haml')).render
+
+            = Haml::Engine.new(File.read('./mag.haml')).render
+
+            .container-fluid.foot
+                .gridi
+                .row
+                    .col-md-1
+                    .col-md-5  
+                        %a{:href => "https://www.mann-ivanov-ferber.ru/kochegarka-bytiya/"}
+                            .rec1  
+                    .col-md-5 
+                        %form.g-2.col-md-10
+                            .col-auto
+                                %label.visually-hidden{:for => "InputEmail1"} Ваш email
+                                %input.form_head.form_foot{:type => "email", :id => "InputEmail1", :aria-describedby => "emailHelp", :placeholder => "Ваш email"}
+                            .col-auto
+                                %button.btn.mb-3{:type => "submit"} Подписаться на рассылку
+                        .col-md-12
+                            %table.table.table-borderless
+                                %tbody
+                                    %tr
+                                        
+                                        %tbody
+                                            %tr
+                                                %td{:scope => "col"} 
+                                                    %a.text1_head{:href => "#new"} Каталог
+                                                %td{:scope => "col"} 
+                                                    %a.text1_head{:href => "#akc"} Акции
+                                            %tr
+                                                %td
+                                                    %a.text3{:href => "#child"} Детские книги                          
+                                                %td
+                                                    %a.text1_head{:href => "#abon"} Абонемент
+                                            %tr
+                                                %td
+                                                    %a.text3{:href => "#bes"} Бестселлеры
+                                                %td
+                                                    %a.text1_head{:href => "#magz"} Контакты
+                                            %tr
+                                                %td{:colspan => "2"}
+                                                    %a.text3{:href => "#self"} Саморазвитие
+                                            %tr
+                                                %td{:colspan => "2"}
+                                                    %a.text3{:href => "#art"} Культура и искусство
+                    .col-md-1
+            .container-fluid.foot_f
+                .row
+                    .col-md-1
+                    .col-md-5.text_foot All Rights Reserved!
+                    .col-md-5.right_foot
+                        %a{:href => "#"}
+                            %img.img_icon{:src => "img/twitter.svg"}
+                        %a{:href => "#"}
+                            %img.img_icon{:src => "img/pinterest.svg"}
+                        %a{:href => "#"}
+                            %img.img_icon{:src => "img/youtube.svg"}
+                        %a{:href => "#"}
+                            %img.img_icon{:src => "img/instagram.svg"}
+                        %a{:href => "#"}
+                            %img.img_icon{:src => "img/facebook.svg"}
+                    .col-md-1
+
+
+            %button.scrollup{:onclick => "topFunction()", :id => "up_mark"}
+                %img.img_icon1{:src => "img/up_mark.svg"}
+
+            .modal.fade{:id => "modal_LK", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog.modal-dialog-centered
+                    .modal-content
+                        .modal-body
+                            %button.btn-close{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}
+                            .text_mod Вход
+                            %form
+                                .mb-3
+                                    %label.form-label.text1_mod{:for => "InputEmail"} Логин
+                                    %input.form-control.form_head{:type => "email", :id => "InputEmail", :aria-describedby => "emailHelp", :placeholder => "Имя аккаунта"}
+                                .mb-3
+                                    %label.form-label.text1_mod{:for => "InputPassword"} Пароль
+                                    %input.form-control.form_head{:type => "password", :id => "InputPassword", :placeholder => "Пароль"}
+                                .mb-3.form-check
+                                    %input.form-check-input.form_head{:type => "checkbox", :id => "Check"}
+                                    %label.form-check-label.text1_mod{:for => "Check"} Запомнить
+                                .btns-bar.d-grid.gap-2.mx-auto
+                                    %button.btn.btn-dark{:type => "button"} Войти
+                                %p.text3 
+                                    Забыли пароль?
+                                    %a.text5{:href => "#"} Нажмите здесь
+                                %p.text3
+                                    Нет аккаунта? 
+                                    %a.text5{:href => "#"} Нажмите здесь
+
+            .modal.fade{:id => "modal_book1", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book1.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Съест ли меня моя кошка?
+                                        .text1 И другие животрепещущие вопросы о смерти
+                                        .text2 Кейтлин Даути 
+                                        .text4 владелица похоронного бюро в Лос-Анджелесе, выступающая за здоровое отношение к теме смерти. Она основала The Order of the Good Death (Орден хорошей смерти), некоммерческую организацию, которая объединяет работников похоронной сферы со схожими взглядами. Даути — автор таких бестселлеров, как «Когда дым застилает глаза» и «Уйти красиво».
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Когда мы умираем, мышцы в теле расслабляются — очень сильно расслабляются. (Как вы, возможно, помните, именно в этот момент мы, скорее всего, посмертно обкакаемся.) Даже если вы вдруг корчили рожи перед смертью, мускулы лица расслабятся вместе со всем остальным телом. Челюсть и веки отвиснут, а суставы станут вялыми (это медицинский термин). Так что попрощайтесь со своей забавной рожицей.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Мертвые тела — разноцветный калейдоскоп с картинками из посмертной жизни организма. Может быть, вы умерли — под «вы» я подразумеваю Джессику, или Марию, или Джеффа, — но это не означает, что деятельность внутри вашей плотской оболочки остановилась. Кровь, бактерии, жидкости — все они реагируют, меняются и адаптируются, ведь их хозяин умер. И эти изменения проявляются в... цветах.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 И что же остается после кремации? Кости. Горячие кости. Мы называем измельченное месиво из костей «кремированными останками», или, проще говоря, «прахом». (Сотрудникам похоронных бюро нравится формулировка «кремированные останки», потому что это звучит представительно и достаточно официально, но «прах» тоже сойдет.)
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Обычно животные не раскапывают человеческие могилы. И на то есть причины. Во-первых, правильное количество земли над телом создает барьер для запахов. Во-вторых, земля не только скрывает мощный запах, но и активно работает над разложением тела, оставляя в итоге совершенно непахнущий скелет. Земля — это магия.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Однажды вы можете поселиться в доме или квартире, где кто-то умер. И с вами все будет в порядке. Моя мама, риелтор, только что продала дом, в котором умерла девяностолетняя старушка. Мама сообщила об этом потенциальным покупателям, и они поехали домой, чтобы подумать. Покупатели вернулись, все-таки желая купить дом, ведь бывшая владелица явно очень любила его, раз согласилась умереть в нем.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Разложение может выглядеть (и пахнуть) отвратительно, но бактерии, задействованные в этом процессе, неопасны. Не все бактерии одинаково плохи. Эти, например, весьма дружелюбны и не вызывают у живых людей никаких заболеваний, они всего лишь пожирают мертвецов. Лишь некоторые инфекции, такие как холера и лихорадка Эбола, делают труп опасным.
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text Развороты
+                                        .gri
+                                        .carousel.slide.carousel-dark.car{:id => "carousel1_1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-indicators
+                                                %button.active{:data => {:bs_target => "#carousel1_1", :bs_slide_to => "0"}, :aria-current => "true", :aria-label => "Slide 1"}
+                                                %button{:data => {:bs_target => "#carousel1_1", :bs_slide_to => "1"}, :aria-label => "Slide 2"}
+                                                %button{:data => {:bs_target => "#carousel1_1", :bs_slide_to => "2"}, :aria-label => "Slide 3"}
+                                                %button{:data => {:bs_target => "#carousel1_1", :bs_slide_to => "3"}, :aria-label => "Slide 4"}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    .div1
+                                                        %img{:src => "img/raz/1.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/2.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/3.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/4.jpg"}
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel1_1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel1_1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+
+            .modal.fade{:id => "modal_book3", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book3.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Кельтские мифы
+                                        .text1 От Короля Артура и Дейрдре до фейри и друидов
+                                        .text2 Миранда Олдхаус-Грин
+                                        .text4 британский археолог и ученый, президент Доисторического общества Великобритании. Она была профессором археологии в Университете Кардиффа, одном из старейших в Уэльсе, с 2006 по 2013 г., а сейчас носит звание «заслуженного профессора» (Professor Emerita). Исследование кельтской культуры Миранды Олдхаус-Грин было признано одним из «100 главных открытий, разработок и изобретений» за последние 50 лет в Великобритании.
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel3", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Артур — самая знаковая фигура в средневековых мифахи преданиях. В валлийской мифологии он ассоциируется с любопытной смесью христианства и языческой магии. И постоянно имеет дело с заколдованными животными и волшебными котлами. Но на самом деле Артур не был королем! Он был военачальником.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Основой кельтской мифологии было ощущение, что духи скрываются в каждом уголке. Некоторые животные — особенно собаки, лошади и крупный рогатый скот — являлись посланниками из потустороннего мира. Это можно понять по их внешности: они были ослепительно белыми, красными или белыми с красными ушами.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Одна из самых известных историй средневековой кельтской литературы — сказание о Святом Граале. Это «повесть о странствии и поиске предмета». Главным героем её был Персеваль, рыцарь при дворе короля Артура, который, блуждая по пустыне, встретил хромого старика, пригласившего его в свой замок.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Священное значение дубов отражается во многих ирландских и валлийских мифах. В античном мире дубы ассоциировались с небесными богами. В сборнике прозаических преданий они упоминаются как источники мудрости. Даже этимология слова «друид» связана с понятием «мудрость дуба».
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Учитывая, что домом ирландцев был остров в океане, неудивительно, что они почитали бога моря. Его звали Мананнан мак Лир, «Сын моря». Он почитался как защитник страны. Он был тесно связан с мифом о Счастливом потустороннем мире, который, как верили ирландцы, существует на островах далеко за морем.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Для кельтов лучшей стороной потустороннего мира был вечный праздник, включающий пиршество, охоту и игры. Жизнь после смерти требовала сохранения физического тела с неповрежденной системой пищеварения. Как еще мертвые могли наслаждаться кусками жареного мяса и кружками алкоголем?
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel3", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel3", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text Развороты
+                                        .gri
+                                        .carousel.slide.carousel-dark.car{:id => "carousel3_1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-indicators
+                                                %button.active{:data => {:bs_target => "#carousel3_1", :bs_slide_to => "0"}, :aria-current => "true", :aria-label => "Slide 1"}
+                                                %button{:data => {:bs_target => "#carousel3_1", :bs_slide_to => "1"}, :aria-label => "Slide 2"}
+                                                %button{:data => {:bs_target => "#carousel3_1", :bs_slide_to => "2"}, :aria-label => "Slide 3"}
+                                                %button{:data => {:bs_target => "#carousel3_1", :bs_slide_to => "3"}, :aria-label => "Slide 4"}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    .div1
+                                                        %img{:src => "img/raz/2_1.png"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/2_2.png"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/2_3.png"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/2_4.png"}
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel3_1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel3_1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+
+            .modal.fade{:id => "modal_book2", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book2.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Атлас мрачных мест
+                                        .text1 Добро пожаловать в мир темного туризма
+                                        .text2 Доктор Петер Хоэнхаус
+                                        .text4 мировой авторитет в сфере темного туризма. Он посетил более 900 мрачных объектов. Хоэнхаус — создатель сайта dark-tourism.com, там он делится с путешественниками рассказами о таинственных местах, практической информацией об их посещении и фотографиями. Это его первая книга.
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel2", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Одно из легендарных кладбищ мира. Его посещает, пожалуй, наибольшее количество туристов. Некрополь основан в 1804 году на тогдашней городской окраине, как один из «новых». Одна из самых посещаемых отдельных могил — захоронение американской рок-звезды Джима Моррисона. Другая яркая суперзвезда, похороненная здесь, — Оскар Уайльд.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Маршрут движения туристических групп по экспозиции проложен между стендами с исторической информацией, однако основной «экспонат» — вход в некогда секретное помещение. Оно почти пустое: мебель из него вынесли. И все же момент входа в убежище очень эмоциональный для многих экскурсантов.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Самый величественный из всех памятников эпохи коммунизма в Болгарии — сооружение в форме летающей тарелки на вершине горы Бузлуджа. Здание проектировали как символ торжества социализма: оно должно было служить музеем партии и местом проведения съездов. Дом-памятник построили в конце 1970-х годов. После падения коммунизма в 1990-х годах здание забросили, оно начало разрушаться.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 В коллекции представлены высушенные человеческие головы из Перу, сиамские близнецы, младенцы-анэнцефалы (полностью или частично лишенные головного мозга и даже черепа), циклопы и совершенно невероятная «Мыльная женщина»: химический состав почвы, в которой похоронили тело в XIX веке, превратил жир в воскообразное вещество, похожее на голубовато-зеленоватое мыло.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Когда цунами в 2004 году обрушилось на Шри-Ланку, Яла оказался затоплен. Если верить сайту национального парка, не пострадало ни одно животное, но в доме отдыха погибли 47 человек, 29 из них — местные жители, остальные — японские и немецкие туристы; всего жертв было 250. От дома не осталось практически ничего — фундамент да немного кафельного пола в ванной; бóльшую часть здания смыло.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Никосия — последняя разделенная столица в Европе. После захвата севера Кипра турками в 1974 году город оказался разрезан на две части. Узкой буферной зоной управляет ООН; ее внутреннюю часть, «зеленую линию», полуразрушенный и пустынный город-призрак, охраняют «голубые каски».
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel2", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel2", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text Развороты
+                                        .gri
+                                        .carousel.slide.carousel-dark.car{:id => "carousel2_1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-indicators
+                                                %button.active{:data => {:bs_target => "#carousel2_1", :bs_slide_to => "0"}, :aria-current => "true", :aria-label => "Slide 1"}
+                                                %button{:data => {:bs_target => "#carousel2_1", :bs_slide_to => "1"}, :aria-label => "Slide 2"}
+                                                %button{:data => {:bs_target => "#carousel2_1", :bs_slide_to => "2"}, :aria-label => "Slide 3"}
+                                                %button{:data => {:bs_target => "#carousel2_1", :bs_slide_to => "3"}, :aria-label => "Slide 4"}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    .div1
+                                                        %img{:src => "img/raz/1_1.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/1_2.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/1_3.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/1_4.jpg"}
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel2_1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel2_1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+            
+            .modal.fade{:id => "modal_book4", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book4.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Мастер шейков и «Маргариты»
+                                        .text1 Коктейли для запойных читателей
+                                        .text2 Тим Федерле
+                                        .text4 бродвейский актер, любитель коктейлей и писатель-романист, автор либретто для ряда бродвейских и диснеевских мюзиклов, сценарист мультика про быка «Фердинанд», автор комического романа YA «Лучше поздно, чем никогда», а также бывший обозреватель стиля жизни в Apartment Therapy. Он живет (и пьет) в Нью-Йорке. Лауреат Награды имени Джина Келли (2013).
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel4", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Чтобы насладиться хорошей книгой, нужны лишь кресло и торшер. Такая же простота отличает и правильный коктейль. Поверьте: если у вас есть пластиковый стакан под рукой и магазин за углом, вы со стопроцентной вероятностью сможете приготовить 90% собранных здесь коктейлей. Тем, кто путает «Кровавую Мэри» с Мэри Шелли, предлагаем небольшую памятку по орудиям, приемам и терминам барного труда.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Свой хлесткий роман-притчу «Над кукушкиным гнездом» Кен Кизи написал еще студентом Стэнфорда под впечатлением от увиденного в психлечебнице, где подрабатывал ночным санитаром. Столкновения нового пациента Макмёрфи с мегерой со шприцем наготове, воплотившей в себе тиранию общества, заставляют нас усомниться: «Кто здесь действительно безумен?» Давайте-ка и мы прочистим себе мозги живительной силой «Космополитена».
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Как и всякая запоминающаяся книжная обложка (помните «Крестного отца» Пьюзо с рукой кукловода?), искусная гарнировка напитка создает предвкушение незабываемых впечатлений. Поясним: гарнир добавляет напитку не только колорит, но и новую грань вкуса и аромата (например, долька лайма или лимонный твист — тонкая спиралька лимонной цедры).
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Не теряйте легенду из виду: она может снова завладеть умами. Вон как с «Радостью секса» получилось — с этим бесстыжим (будем честны!) практическим руководством 1970-х годов, состряпанным по образу и подобию кулинарных книг. Секс очистили от науки и наполнили истинными радостями. Вспомним же и мы старый добрый «Секс на пляже». Получайте удовольствие, а в промежутках остужайтесь нашим безопасным (в разумных пределах) напитком.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Перевернутый вверх тормашками мир Кэрролла стал основой для великого множества фильмов, мюзиклов и других жанров искусства. Возьмем же пример с Алисы и откусим от нашего грибного деликатеса. Вряд ли он прибавит роста, но довольная улыбка Чеширского кота вам точно обеспечена!
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Наделавший шума «Страх полета» мог бы сойти за примитивную исповедь зацикленной на себе распутницы, но сквозь нее прорывается манифест новой, свободной женщины. К тому же любой начинающий кулинар знает: три ингредиента — в самый раз, тогда как два — всегда недобор. Доказательством тому служат наши безобидные (для талии) капустные чипсы.
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel4", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel4", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text Развороты
+                                        .gri
+                                        .carousel.slide.carousel-dark.car{:id => "carousel4_1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-indicators
+                                                %button.active{:data => {:bs_target => "#carousel4_1", :bs_slide_to => "0"}, :aria-current => "true", :aria-label => "Slide 1"}
+                                                %button{:data => {:bs_target => "#carousel4_1", :bs_slide_to => "1"}, :aria-label => "Slide 2"}
+                                                %button{:data => {:bs_target => "#carousel4_1", :bs_slide_to => "2"}, :aria-label => "Slide 3"}
+                                                %button{:data => {:bs_target => "#carousel4_1", :bs_slide_to => "3"}, :aria-label => "Slide 4"}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    .div1
+                                                        %img{:src => "img/raz/3_1.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/3_2.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/3_3.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/3_4.jpg"}
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel4_1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel4_1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+
+            .modal.fade{:id => "modal_book5", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book5.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Кости: внутри и снаружи
+                                        .text1 Серия «Тело. Инструкция»
+                                        .text2 Рой Милз
+                                        .text4 врач, клинический профессор ортопедической хирургии в Калифорнийском университете в Лос-Анджелесе, автор нескольких книг в области медицины. Практикует, исследует и преподает хирургию кисти уже сорок лет, занимает пост президента Американского общества хирургии кисти и многие годы входит в состав редакционного совета Journal of Hand Surgery. Живет в Лос-Анджелесе в штате Калифорния.
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel5", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Кость «производится» на месте эксплуатации. Она легкая, прочная и адаптируется к меняющимся условиям. Стальной мост не может удвоить свою длину или несущую способность, а кость и растет, и реагирует на нагрузки. Более того, она сама себя чинит: ни разбитый кирпич, ни сломанная ложка из металла не обладают таким свойством.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Скульптор и художник Генри Мур черпал вдохновение в кости. В 1940 году его мастерская пострадала во время бомбардировки, и он приобрел старый деревенский дом, располагавшийся на бывшей свиноферме. Гуляя по окрестностям, Мур собирал кости и приносил их в студию. Он детально изучал позвонки и был очарован их округлыми отверстиями и изогнутыми, переходящими друг в друга поверхностями.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Рассмотрим твердые штуки, которые торчат из десен большинства позвоночных и имеются у копытных животных. Кости ли это? В случае зубов — нет. И зубы, и кости твердые, плотные и содержат кальций, но химический состав и структура у них разные, поэтому не приплюсовывайте зубы к общему числу костей в организме — тем самым двумстам шести.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Почти 3 тысячи лет назад центральную часть современной Италии населяли этруски, которые верили, что птицы могут предсказать будущее. Они высушивали на солнце дугообразную вилочковую кость из гусиной шеи и хранили ее в надежде получить часть волшебной силы. Загадывая желание, этруски гладили эту кость — отсюда английское название вилочки, wishbone («кость желаний»).
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Длина большеберцовой кости младенца — около 8 сантиметров. У взрослых эта кость примерно в 6 раз больше — в зависимости от роста. В течение жизни все кости сохраняют свою уникальную форму, однако от зарождения плода в утробе матери и до завершения подросткового периода они увеличиваются по всем параметрам.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Если перелом заживает медленно, полезно устроить костям «рок-концерт». Точно так же, как звуки музыки сотрясают нас до самой глубины, звуковые волны вызывают вибрации в остеобластах. 10-20 минут в день — и шквал звуковых вибраций создаст в кристаллах гидроксиапатита пьезоэлектрические силы, как это происходит при ходьбе. Формирующие кость клетки начнут работать в темпе рок-н-ролла, а не вальса.
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel5", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel5", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text О книге
+                                        .gri
+                                        .text3 Живой иллюстрированный рассказ о 500 миллионах лет истории кости — краеугольном камне для понимания жизни позвоночных, нашего здоровья, истории людей и человеческой культуры.
+                                        .gri
+                                        .text3 Человеческая кость универсальна и совершенно уникальна. Она заживляет себя без рубцов, она легкая, но устойчива к нагрузке, она настолько долговечна, что сохраняется тысячелетиями. Хирург-ортопед Рой Милз исследует и превозносит этот удивительный материал, без которого невозможна жизнь позвоночных.
+                                        .gri
+                                        .text3 Внутри организма кость проявляет себя как лучший в мире строительный материал. Автор рассматривает ее биологический состав, опровергает мифы о том, как кости растут, ломаются и заживают, сравнивает особенности их строения у человека с различными вариациями у других представителей царства животных. В ясной и убедительной манере он опровергает расхожие представления — например, о том, что у человека ровно 206 костей, — а также рассказывает о частых заболеваниях кости, в том числе остеопорозе и артрите, и их лечении. Попутно он объясняет медицинские инновации — от первых рентгеновских снимков до передовых хирургических методик — и знакомит читателя с гигантами ортопедической хирургии, которые создавали их и облегчали нам жизнь.
+                                        .gri
+                                        .text3 Выполнив свою задачу в организме позвоночного, кость может весьма неожиданным образом проявить себя спустя сотни миллионов лет. Милз с энтузиазмом и юмором рассказывает о множестве ролей, которые кости играли в человеческой культуре на протяжении столетий. Он пишет об упоминаниях костей в религии и литературе — от ребра Адама до гамлетовского черепа, об их устойчивом присутствии в ископаемых остатках, об использовании костей в качестве орудий труда и даже для создания музыкальных инструментов начиная с тибетского рога ганлин из бедренной кости человека и заканчивая обычными барабанными палочками. Человечество с самого своего зарождения и до сегодняшнего дня находит костям все новое применение — они не только служат нам опорой и защитой, но и учат, развлекают и дарят вдохновение.
+                                        .gri
+                                        .text3 Эта книга — доступное, интересное и насыщенное повествование о каркасе, без которого не обойтись нашему телу.
+                                        .gri
+                                        .text3 Книга открывает серию книг популярной медицины «Тело. Инструкция». Это хорошо оформленные медицинские книги от медиков и ученых — ведущих экспертов в своих областях, которые повышают уровень информированности и осведомленности об организме человека (как он устроен, как работает, есть ли проблемы и как их предотвратить).
+                                        .gri
+                                        .text3 Для кого эта книга
+                                        .gri
+                                        .text3 Для тех, кто хочет узнать о строении кости, формировании и развитии человеческого скелета. Для тех, кто хочет узнать больше о кости как биологическом и культурном феномене. Также для тех, кто хочет почерпнуть знания о здоровье костей.
+                                        .gri
+                                        .text3 От автора
+                                        .gri
+                                        .text3 Кость «производится» прямо на месте эксплуатации (в организме живого существа). Она легкая, прочная и адаптируется к меняющимся условиям. Стальной мост не может удвоить свою длину или несущую способность, а кость и растет, и реагирует на нагрузки. Более того, кость сама себя чинит: ни разбитый кирпич, ни сломанная ложка из металла, пластика или дерева не обладают таким свойством. Кость — не просто лучший в мире конструкционный материал, а еще и большой банк, который вмещает жизненно важные элементы (в первую очередь кальций) и при необходимости отдает их организму. Кость — широко распространенный и универсальный материал, однако живую кость мы видим редко, поэтому кости кажутся нам несколько загадочными. Зато когда кость отслужит своему владельцу, этот удивительный и таинственный материал получает шанс проявить себя в самых разных местах и предназначениях, иногда спустя сотни миллионов лет. Кость может многое рассказать нам об истории планеты и жизни животных на ней. Еще на заре цивилизации люди начали применять кость как инструмент, использовать ее для защиты и даже для развлечения и вдохновения. Таким образом, обнаженная кость не менее интересна, чем скрытая, и к концу этого повествования вы будете уверены, что лучше материала не найти.
+                                        .gri
+
+            .modal.fade{:id => "modal_book6", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book6.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Культовые художники и их стиль
+                                        .text1 Как гении искусства и моды вдохновляли друг друга. Фрида Кало, Кристиан Диор, Сальвадор Дали, Ив Сен-Лоран, Марина Абрамович, Марк Джейкобс и другие
+                                        .text2 Терри Ньюман
+                                        .text4 проработала в индустрии моды более 25 лет. Она была редактором в журналах i-D, Attitude и Self Service, а также писала для The Guardian, The Independent, The Times, The Sunday Times и вела передачи о моде на британском телеканале Channel 4. В настоящее время преподает в Эпсомском университете искусств (Великобритания).
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel6", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Каждый художник уникален и может быть только самим собой. Зачастую внешний вид отражает неповторимое мироощущение. То, что художник носит на улице и в мастерской; то, как он взаимодействует с миром моды, и то, что мир моды берет из его творчества — все это дает богатейшую пищу для размышлений.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 На открытии экспозиции 2012 года в доме-музее Кало писатель Карлос Фуэнтес вспоминал, как Фрида входила во дворец изящных искусств в Мехико под звон собственных украшений: любой ее наряд был торжественным, почти ритуальным дополнением к философии творчества.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 «В детстве я рисовал отвратительно: либо чересчур увлекался абстрактным экспрессионизмом, либо просто кое-как малевал огромную голову барана. Мне ни разу не удалось выиграть художественный конкурс. Помню, однажды я проиграл парню, который здорово нарисовал Человека-паука. Мне очень хотелось быть лучшим в классе, но рисунки у меня были уж очень уродливые». Жан-Мишель Баския. Журнал Interview, январь 1983 г.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Когда Дали хотелось устроить грандиозный выход, он брался за дело с подлинным размахом. В 1934 г. в Нью-Йорке на прием, который дала в честь художника светская львица Каресс Кросби, он надел «светящиеся груди в бюстгальтере». В 1936 г. в Лондоне он пришел на Международную выставку сюрреализма в водолазном костюме со шлемом; аксессуарами к нему стали бильярдный кий и пара русских борзых.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Если взглянуть на жизнь и творчество Ива Сен-Лорана, нельзя не признать, что в душе он был подлинным художником. Благодаря огромному мастерству он работал с обманчивой легкостью, как танцует балерина — летящий росчерк в блокноте превращался в шедевр на подиуме. Искусство, безусловно, вдохновляло Сен-Лорана: его любимым художником был Пикассо, однако кутюрье не раз отдавал символическую дань и другим мастерам — Матиссу, ван Гогу, Мондриану.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 «Я всегда считал, что главные художники в мире — женщины. Это же они ткали ковры навахо, шили американские лоскутные одеяла, вручную разрисовывали потрясающие наряды 1940-х». Энди Уорхол. Журнал Interview, июнь 1977 г.
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel6", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel6", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text Развороты
+                                        .gri
+                                        .carousel.slide.carousel-dark.car{:id => "carousel6_1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-indicators
+                                                %button.active{:data => {:bs_target => "#carousel6", :bs_slide_to => "0"}, :aria-current => "true", :aria-label => "Slide 1"}
+                                                %button{:data => {:bs_target => "#carousel6_1", :bs_slide_to => "1"}, :aria-label => "Slide 2"}
+                                                %button{:data => {:bs_target => "#carousel6_1", :bs_slide_to => "2"}, :aria-label => "Slide 3"}
+                                                %button{:data => {:bs_target => "#carousel6_1", :bs_slide_to => "3"}, :aria-label => "Slide 4"}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    .div1
+                                                        %img{:src => "img/raz/4_1.png"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/4_2.png"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/4_3.png"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/4_4.png"}
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel6_1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel6_1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+            
+            .modal.fade{:id => "modal_book7", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book7.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text В стране линдвормов
+                                        
+                                        .text2 Фрида Нильсон
+                                        .text4 выиграла огромное количество литературных наград, среди которых Августовская премия, Немецкая молодежная литературная премия и Премия памяти Астрид Линдгрен. В 2017 году Фрида Нильсон вошла в список лучших европейских авторов до 39 лет по версии Hay Festival Aarhus. В 2021 году она стала первым лауреатом приза Шведской академии в области детской и юношеской литературы.
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel7", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Каждый день во всех уголках мира рассказывают одну и ту же сказку. Сказку о том, как сильный пожирает слабого. Правдивую сказку, Сем. И как грустно тебе это ни покажется, спасать брата нет ни малейшего смысла. Нет смысла сопротивляться. Желание вкусить крови, текущей в юных жилах, угаснет последним. Я пришла, чтобы сказать тебе об этом.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Наш замок окружают обширные густые леса. В прежние времена в этих лесах обитало множество линдвормов. Как вы уже поняли, линдвормы — существа особого рода. Подобно другим животным, линдвормы живут в лесах и полях, но владеют и даром речи, и способностью к волшебству. Линдворм, если ему позволить, может прожить тысячу лет.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Подняв на задние лапы лису и крысу, я принудила бы человека опуститься на четвереньки, научила бы вас быть зверями. Вот почему меня позабавила затея Иммера, когда он надел шкуру и принялся грызть мебель. Он словно понял то, чего не понимал до него ни один человек: вы — часть круговорота природы!
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Сюда не доберётся старая прожорливая росомаха, и голодный лис не сумеет протиснуться к моему яйцу; сюда сможет просочиться лишь существо длинное и худое, как линдворм. И когда я закрою глаза в последний раз — я буду знать, что продолжу жить в своём ребёнке. Если бы ты знал, как утешает меня эта мысль.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Вот купол у нас над головой: когда он светлый и ясный, мы называем его «небеса», а когда обложен хмурыми тучами — «низкий свод». Имена и названия можно менять. Но пока я живу, я буду носить в себе желание делать добро. Я, Сем. Я, Самуэль. Не исключено, что вскоре я выберу себе третье имя. Потому что завтра поутру небосвод будет красным.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Индра могла оказаться права, и мы действительно были и останемся двумя сиротами, которых усыновляют не любя. Двумя мальчишками, которых швыряет туда и сюда и которым никак не удержаться, какое бы место они ни пытались сделать своим домом. Но я надеялся, что королева всё же сильно ошибалась. Я надеялся, что на этот раз нас ждёт что-то хорошее.
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel7", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel7", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text О книге
+                                        .gri
+                                        .text3 Сказочная история от известной шведской писательницы Фриды Нильсон о взаимовыручке и поддержке, о смелости и отстаивании своего мнения, о том, как оставаться человеком даже в самые трудные времена.
+                                        .gri
+                                        .text3 Сем и его младший брат Иммер — сироты. Мальчики живут у злобной тетки Тюры, которая заставляет их работать в мастерской с утра до ночи. Однажды братья встречают говорящую крысу по имени Чернокрыс. Он рассказывает им про прекрасную страну линдвормов, которой правит добрая королева Индра. Всю свою жизнь королева мечтает стать матерью и была бы рада усыновить Сема и Иммера. Мальчики соглашаются пожить в замке.
+                                        .gri
+                                        .text3 Днями напролет они играют, едят сладости. Но вскоре Сем понимает, что Индре нравится его младший брат, а вот к нему королева не питает нежных материнских чувств. Да и слуги-звери ведут себя подозрительно: мечтают вернуться в лес и не очень-то рады угождать Индре. А еще удивительно, что в этой стране не живут люди. Какую же тайну скрывает королева Индра?
+                                        .gri
+                                        .text3 Для кого эта книга
+                                        .gri
+                                        .text3 Для детей от 10 лет. Для всех любителей фэнтези.
+                                        .gri
+                                        .text3 Пять причин прочитать книгу
+                                        .gri
+                                        .text3 Пронзительная книга о приключениях двух братьев от автора бестселлера «Пираты Ледового моря». В 2021 году Фрида Нильсон стала первым лауреатом приза Шведской академии в области детской и юношеской литературы.
+                                        .gri
+        
+            .modal.fade{:id => "modal_book8", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book8.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Индиго с Мармеладной улицы и её чудовищные питомцы
+                                        
+                                        .text2 Пиппа Карник 
+                                        .text4 автор и иллюстратор родом из Англии. Окончила Университет Дерби с красным дипломом и много лет занимается дизайном и созданием книжек с картинками. В детстве Пиппа обожала лазать по деревьям и прыгать через канавы — и даже теперь, чтобы набраться вдохновения, часто ходит погулять в лес, где и придумывает идеи для иллюстраций.
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel8", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Сам дом номер сорок семь был гигантским. Индиго подозревала, что побывала далеко не во всех его помещениях, — а ведь они были знакомы уже не первый год. При этом свой дом Индиго любила до мурашек. Ей нравилось наблюдать, как он переливается по настроению то синим и оранжевым, то розовым и изумрудным, аж глаза слезятся. Остальные-то дома как скучные коробочки — и цвет вроде сухих хлебных крошек.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Родители Индиго — Филомена и Бертрам Уайлд — были знаменитыми на весь мир путешественниками-натуралистами. Они объехали все известные и особенно неизвестные края в поисках неведомых и, если очень повезёт, опасных существ. Филомена и Бертрам души не чаяли во всякой живности — косматой, чешуйчатой, летучей, ползучей. Но особое пристрастие питали к тем, кто выдыхает огонь или способен сожрать человека в один присест.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Когда Филомена и Бертрам прислали йети в дом номер сорок семь, Индиго сразу поняла, почему их требуется приютить: косматый мех у малышей был не белым, как у сородичей, а ярко-голубым и не менее ярко-розовым. Попробуй-ка затаись в заснеженных горах и попугай лыжников, если ты светишься, как неоновый фонарь!
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Если вы вдруг подзабыли, у рыбокота верхняя половина кошачья, а нижняя — рыбья. Увидеть рыбокота в природе не такто просто, но попробовать стоит. Для этого нужно прийти в полночь на берег моря, встать на голову прямо во впадине в скале, там, где набралась морская вода, и прочитать алфавит задом наперёд — только громко и не спеша. И вот он, собственной персоной! Но это если повезёт. Всё-таки животное редкое.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 «Абракадабриум» написала прапрапрапрабабушка Индиго — Гертруда Уайлд, дама выдающегося ума и отваги. Однажды она пустилась через Мёрзлое море в старой ванне, а когда устала грести, заарканила парочку акул, и они довезли её до противоположного берега. Точнее, перу Гертруды принадлежал основной текст, а потом всякие другие авторы вписывали кое-что от себя на полях, так что свободного места на страницах уже и не оставалось.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 В комнате у Индиго царил кавардак. На кресле громоздились стопки книг, а на скрипучем деревянном полу лежали толстые коврики и сваленная в кучи одежда. На платяном шкафу свили гнездо ослепительно разноцветные птицы, а на ветхом прикроватном столике кое-как пристроился аквариум, полный саламандр-хамелеонов.
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel8", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel8", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text Развороты
+                                        .gri
+                                        .carousel.slide.carousel-dark.car{:id => "carousel8_1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-indicators
+                                                %button.active{:data => {:bs_target => "#carousel8_1", :bs_slide_to => "0"}, :aria-current => "true", :aria-label => "Slide 1"}
+                                                %button{:data => {:bs_target => "#carousel8_1", :bs_slide_to => "1"}, :aria-label => "Slide 2"}
+                                                %button{:data => {:bs_target => "#carousel8_1", :bs_slide_to => "2"}, :aria-label => "Slide 3"}
+                                                %button{:data => {:bs_target => "#carousel8_1", :bs_slide_to => "3"}, :aria-label => "Slide 4"}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    .div1
+                                                        %img{:src => "img/raz/5_1.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/5_2.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/5_3.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/5_4.jpg"}
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel8_1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel8_1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+        
+            .modal.fade{:id => "modal_book9", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book9.jpg"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text История Северного круга
+                                        
+                                        .text2 Юлия Кузнецова
+                                        .text4 автор с широким кругом интересов. Она пишет не только сказки и рассказы для детей, но и детективы, романы, приключенческие повести для взрослых. Юлия — редактор интернет-журнала «Жёлтая гусеница», также работает с журналом «Переплёт», который повествует о детской литературе, занимается и переводческой деятельностью.
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel9", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Мне мама рассказывала, что в лесу есть дерево, в котором сто тридцать одно дупло. Это Древо Поветрий. Раньше, давным-давно, когда моих родителей еще не было на свете, люди, проезжая на лыжах мимо Древа Поветрий, кричали туда разные слова. Чаще всего это были важные, но тайные слова, которыми страшно или запрещено с кем-то поделиться. Слова оставались жить в дуплах. А потом со временем стали разлетаться по свету.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Женщины в нашем круге любят выращивать ледяные кристаллы разных форм. Говорят, они напоминают цветы, только названия уже мало кто помнит. Розы? Похоже на угрозы. Мама говорила, что у роз были колючие шипы. Может, ими и угрожали? Сад у мамы маленький — не больше пяти кристаллов, — но она заботится о них.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Мне было, наверное, пять зим, когда я с пультом в руках добрался до кухонного шкафа, открыл его и обнаружил не любимый виноградный мусс и теплое хим-као, а множество разных коробок с порошками. Возможно, слово «приготовить» насмешило бы древних людей. Судя по сказкам, они заморачивались куда больше нашего: мыли овощи, резали их, тушили, подавали с разными соусами. А выпечка? Вот эти пирожки, которые Шапочка несет волку? Пирожки не из порошка ведь.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Все мальчишки в нашем рабочем классе любят такое соревнование: нужно подползти к краю булькающей прожилки и швырнуть в самый центр сухую. Это сложно и страшно опасно, ведь каждую секунду снег под тобой может обрушиться и ты полетишь туда — в страшную зеленую жижу, которая только что поглотила с шипением свою засохшую сестру.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Знаешь, Дин, ведь с Эльной время течет немного по-другому. Вы с Крамтом быстро учились всему: сидеть, ходить, ездить на лыжах. А у нее свой путь. Она тоже учится. Медленно, понимаешь. Но учится. Раньше она не умела улыбаться. Теперь смеется. Раньше она не поднимала руки. Теперь может дотронуться до меня. А знаешь почему? Потому что у меня есть волшебное лекарство, которое помогает нам обеим. И ей, и мне. Это надежда.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Талюк оказался мягким и прохладным на ощупь. И правда — чудо из чудес! Как маленький, размером с мой ноготь, жучок, мог превратиться в такой здоровый прохладный шар?! Он уже еле помещался на ладони. Не верится, что он может вырасти размером с человека.
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel9", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel9", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text Развороты
+                                        .gri
+                                        .carousel.slide.carousel-dark.car{:id => "carousel9_1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-indicators
+                                                %button.active{:data => {:bs_target => "#carousel9_1", :bs_slide_to => "0"}, :aria-current => "true", :aria-label => "Slide 1"}
+                                                %button{:data => {:bs_target => "#carousel9_1", :bs_slide_to => "1"}, :aria-label => "Slide 2"}
+                                                %button{:data => {:bs_target => "#carousel9_1", :bs_slide_to => "2"}, :aria-label => "Slide 3"}
+                                                %button{:data => {:bs_target => "#carousel9_1", :bs_slide_to => "3"}, :aria-label => "Slide 4"}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    .div1
+                                                        %img{:src => "img/raz/6_1.PNG"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/6_2.png"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/6_3.png"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/6_4.png"}
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel9_1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel9_1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+        
+            .modal.fade{:id => "modal_book10", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book10.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Его величество мозг
+                                        .text1 Все самое интересное о работе мозга людей, животных и роботов
+                                        .text2 Джоси Блоггс
+                                        .text4 иллюстратор из Англии. Работает в любом формате и с любой литературой. Особенно любит создавать научно-популярные книги для детей.
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel10", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 На вид мозг кажется твердым, как высохшая изюмина, но на самом деле он очень мягкий, влажный и студенистый. На три четверти он состоит из воды, так что его можно представить как невероятно умное желе.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Знаменитый биолог Джейн Гудолл выделила около 60 жестов, с помощью которых беседуют друг с другом шимпанзе. Попробуй потереть подбородок, как будто он у тебя чешется. Получилось? Ты только что поговорил на языке шимпанзе и сказал, что проголодался!
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 С тобой бывает так, что ты слышишь любимую музыку и невольно начинаешь пританцовывать? Отстукивать ритм и двигать плечами тебя заставляет мозжечок. Он получает информацию от органов чувств, спинного мозга и двигательных отделов головного мозга и на ее основе регулирует движения.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Ты слышал про людей, которые не могут узнавать лица? Даже друзья и родные кажутся им чужими. Болезнь может быть связана с нарушениями в работе затылочной доли и называется лицевая агнозия. Дело в том, что эта часть мозга позволяет не только видеть лица и предметы, но и узнавать их.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Прикинуть величину твоего мозга очень легко. Сожми оба кулака и сложи их вместе — они примерно того же размера, что и мозг, только немного меньше. А еще кулаки чем-то похожи на мозг по форме: его гребни и складки напоминают выступы и желобки между пальцами.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Представь, что твой мозг настолько велик, что не помещается внутри головы и доходит до самых плеч. Именно так выглядит мозг паука-скакуна: его мозг размером с маковое зернышко, а его отростки доходят до верхней части лап.
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel10", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel10", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text Развороты
+                                        .gri
+                                        .carousel.slide.carousel-dark.car{:id => "carousel10_1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-indicators
+                                                %button.active{:data => {:bs_target => "#carousel10_1", :bs_slide_to => "0"}, :aria-current => "true", :aria-label => "Slide 1"}
+                                                %button{:data => {:bs_target => "#carousel10_1", :bs_slide_to => "1"}, :aria-label => "Slide 2"}
+                                                %button{:data => {:bs_target => "#carousel10_1", :bs_slide_to => "2"}, :aria-label => "Slide 3"}
+                                                %button{:data => {:bs_target => "#carousel10_1", :bs_slide_to => "3"}, :aria-label => "Slide 4"}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    .div1
+                                                        %img{:src => "img/raz/7_1.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/7_2.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/7_3.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/7_4.jpg"}
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel10_1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel10_1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+
+            .modal.fade{:id => "modal_book11", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book11.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Ты сильнее тревоги!
+                                        .text1 Твой полный гид по борьбе с волнением и стрессом
+                                        .text2 Реджин Галанти
+                                        .text4 PhD, лицензированный клинический психолог со стажем работы более 10 лет. Стремится поделиться своими знаниями через книги. Ее миссия — научить управлять своим психическим здоровьем как можно больше молодых людей. О бестселлерах Реджин писали New York Times, Washington Post и Buzzfeed.
+                                        .gri1
+                                        .text.modal_text Цитаты из книги
+                                        .gri
+                                        .carousel.slide.carousel-dark{:id => "carousel11", :data => {:bs_ride => "carousel"}}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Инстинкт становится проблемой, когда реакция «бей, беги или замри» срабатывает слишком часто без какой-либо реальной угрозы. Подумай вот о чем: пещерный человек боялся льва, и это помогало ему выжить, но твоя боязнь заговорить с новым одноклассником, который кажется довольно милым, далеко не так полезна.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 У тревожности всегда есть триггер. Хороший способ выявить его — задаться простым вопросом: что случилось перед тем, как я начал(а) нервничать? Триггеры — это не обязательно конкретные события (хотя может быть и такое). Это также мысли, физические ощущения или поступки. Любая часть цикла тревожности может запустить процесс.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Маленькие дети постоянно получают наклейки и небольшие призы за хорошую работу. И знаешь что? Эта хитрость работает и на взрослых! Все любят награды. Одна девушка как-то сказала мне, что ей очень тяжело сталкиваться с неприятными чувствами, но задача становится проще, если есть чего ждать в конце.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Помни главное правило мозгового штурма: неверных ответов не бывает. Постарайся придумать как можно больше решений. В случае с четырехстраничным сочинением они могут быть такими: наметить план, попросить учителя дать тебе больше времени, вообще не выполнять работу и т. д. — на этом этапе не оценивай идеи. Если тебе трудно придумать варианты, попроси друзей или семью помочь.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Ты человек и всегда будешь испытывать нормальные человеческие эмоции, включая тревожность. Некоторые дни будут лучше, чем другие. Конечно, иногда это очень неудобно (как физически, так и эмоционально), но твоя тревожность — часть тебя. Поэтому не пытайся сбежать от нее или закрыть на нее глаза. Твоя цель — более осознанно принимать сложные эмоции.
+                                                .carousel-item
+                                                    %figure.text-center.div
+                                                        %blockquote.blockquote
+                                                            %p.text3 Дай хулигану тревожности имя, чтобы было проще узнать его, когда он появится у тебя в голове. Так ты будешь настороже, сможешь вовремя определить, что тревожность заставляет тебя мыслить или действовать иррационально, и не станешь реагировать.
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel11", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel11", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text О книге
+                                        .gri
+                                        .text3 Повышенная тревожность разрушает жизнь? Благодаря этой книге подросток освоит навыки, которые помогут справиться с волнением и беспокойством и вернуться на путь счастливой и здоровой жизни.
+                                        .gri
+                                        .text3 Получать хорошие оценки, следить за социальными сетями, поддерживать дружеские отношения... у современного подростка полно дел. Большая нагрузка становится причиной беспокойства. Избегание сложных ситуаций — не выход, ведь жизнь проходит мимо.
+                                        .gri
+                                        .text3 В этой книге описаны техники, основанные на когнитивно-поведенческой терапии и осознанности. Они помогут справиться с тревогой, беспокойством, стрессом и волнением. Выполняя простые, но эффективные упражнения, подросток изменит свои мысли, поведение и физические реакции и освоит инструменты, необходимые для решения разных жизненных проблем.
+                                        .gri
+                                        .text3 Для кого эта книга
+                                        .gri
+                                        .text3 Для подростков, которые хотят справиться с тревогой и стрессом. Для родителей и педагогов, которые хотят помочь детям справиться с повышенной тревожностью.
+                                        .gri
+                                        .text3 Фишки книги
+                                        .gri
+                                        .text3 Более 30 инструментов, основанных на когнитивно-поведенческой терапии, для управления тревогой, а также практические стратегии борьбы со сложными эмоциями — такими, как гнев и печаль. Более 30 упражнений, основанных на практике осознанности, которые помогут справиться с тревогой в настоящий момент с помощью визуализаций, дыхания, медитации и других упражнений. Тесты для оценки своего текущего состояния и выявления триггеров, которые вызывают беспокойство и негативные эмоции. Занимает вторую строчку в категории «Психическое здоровье подростков» на Amazon.
+                                        .gri 
+
+            .modal.fade{:id => "modal_book12", :data => {:bs_backdrop => "static", :bs_keyboard => "false"}, :tabindex => "-1", :aria-labelledby => "staticBackdropLabel", :aria-hidden => "true"}
+                .modal-dialog.modal-dialog-scrollable.modal-fullscreen
+                    .modal-content
+                        .modal-body.book1
+                            .book1_1
+                                
+                            .container-fluid.book1_2
+                                .row
+                                    .col-md-1  
+                                        %button.btn-close.btn-close-white{:type => "button", :data => {:bs_dismiss => "modal"}, :aria-label => "Close"}                              
+                                    .col-md-4.modal_book
+                                        %img.modal_img{:src => "img/modal/book12.png"}
+                                        .btns-bar.d-grid.gap-2.col-7.mx-auto
+                                            .gri
+                                            %button.btn.btn-dark{:type => "button"} Купить
+                                            %button.btn.btn-dark{:type => "button"} Отрывок
+                                            %button.btn.btn-dark{:type => "button"} Избранное
+                                    .col-md-7.book_info
+                                        .text.modal_text Легенда о волках
+                                        
+                                        .text2 Сэм Саттин
+                                        .text4 получил степень магистра в области комиксов в Калифорнийском колледже искусств и степень магистра творческого письма в колледже Миллс. Его работы появлялись в журналах Nib, The Atlantic, NPR и других изданиях. Он преподает в Калифорнийском колледже искусств.
+                                        .gri1
+                                        
+                                        .text.modal_text Развороты
+                                        .gri
+                                        .carousel.slide.carousel-dark.car{:id => "carousel12_1", :data => {:bs_ride => "carousel"}}
+                                            .carousel-indicators
+                                                %button.active{:data => {:bs_target => "#carousel12_1", :bs_slide_to => "0"}, :aria-current => "true", :aria-label => "Slide 1"}
+                                                %button{:data => {:bs_target => "#carousel12_1", :bs_slide_to => "1"}, :aria-label => "Slide 2"}
+                                                %button{:data => {:bs_target => "#carousel12_1", :bs_slide_to => "2"}, :aria-label => "Slide 3"}
+                                                %button{:data => {:bs_target => "#carousel12_1", :bs_slide_to => "3"}, :aria-label => "Slide 4"}
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    .div1
+                                                        %img{:src => "img/raz/8_1.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/8_2.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/8_3.jpg"}
+                                                .carousel-item
+                                                    .div1
+                                                        %img{:src => "img/raz/8_4.jpg"}
+                                            %button.carousel-control-prev{:type => "button", :data => {:bs_target => "#carousel12_1", :bs_slide => "prev"}}
+                                                %span.carousel-control-prev-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Предыдущий
+                                            %button.carousel-control-next{:type => "button", :data => {:bs_target => "#carousel12_1", :bs_slide => "next"}}
+                                                %span.carousel-control-next-icon{:aria-hidden => "true"}
+                                                %span.visually-hidden Следующий
+                                        .gri
+                                        .text.modal_text О книге
+                                        .gri
+                                        .text3 Графический роман от создателей мультфильмов «Песнь моря» и «Тайна Келлс», номинированных на «Оскар». Это волшебная сказка, основанная на поверьях народов Ирландии.
+                                        .gri
+                                        .text3 Девочка Робин и ее отец-охотник приезжают в Ирландию по приказу лорда-протектора. Он просит истребить последнюю стаю волков, которых люди боятся и издревле считают злыми животными.
+                                        .gri
+                                        .text3 Робин не разрешают охотиться вместе с отцом, и она вынуждена целыми днями сидеть взаперти. Не выдержав, девочка сбегает в лес...
+                                        .gri
+                                        .text3 Там она встречает задорную рыжеволосую девчонку, живущую среди тех самых грозных волков. Но все оказывается немного сложнее: на самом деле это люди, которые превращаются в волков, лишь когда спят.
+                                        .gri
+                                        .text3 Узнав, что бояться их не нужно, Робин решает защитить стаю. Но когда жизни горожан и волков сталкиваются, отношения Робин с отцом накаляются донельзя, ведь она превращается в то, что ему поручено уничтожить...
+                                        .gri 
+                                        .text3 Для кого эта книга
+                                        .gri
+                                        .text3 Для детей в возрасте от 8 лет. Для любителей комиксов и приключений.
+                                        .gri
+                                        
+        %script{:src => "https://unpkg.com/swiper@7/swiper-bundle.min.js"}
+        %script{:src  => "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js", :crossorigin => "anonymous", :integrity => "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"}
+        %script{:src => "main.js"}

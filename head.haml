@@ -1,0 +1,38 @@
+.container-fluid.head1{:id => "glav"}
+    .row
+        .col-3
+            %a.text_head{:href => "#glav"}
+                %img.img_log{:src => "img/log.svg"}
+        .col-9.right_head
+            %a{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_LK"}}
+                %img.img_icon{:src => "img/LK.svg"}
+            %a{:href => "#", :role => "button", :data => {:bs_toggle => "modal", :bs_target => "#modal_LK"}}
+                %img.img_icon{:src => "img/Mark.svg"}
+%nav.navbar.navbar-expand-md.head.navbar-light.bg-light{:aria-label => "Tenth navbar example"}
+    .container-fluid
+        
+        %button.navbar-toggler{:type => "button", :data => {:bs_toggle => "collapse", :bs_target => "#navbarResponsive"}, :aria-controls => "navbarsExample08", :aria-expanded => "false", :aria-label => "Toggle navigation"}
+            %span.navbar-toggler-icon
+        .collapse.navbar-collapse.justify-content-md-center{:id => "navbarResponsive"}
+            %ul.navbar-nav
+                %li.nav-item
+                    %a.nav-link.text1_head.active{:href => "#glav", :aria-current => "page"} Главная
+                %li.nav-item.dropdown
+                    %a.nav-link.dropdown-toggle.text1_head{:href => "#new", :id => "dropdown08", :data => {:bs_toggle => "dropdown"}, :aria-expanded => "false"} Каталог
+                    %ul.dropdown-menu.menu{:aria-labelledby => "dropdown08"}
+                        %li 
+                            %a.dropdown-item.text1_head{:href => "#new"} Новинки
+                        %li 
+                            %a.dropdown-item.text1_head{:href => "#child"} Детские книги
+                        %li 
+                            %a.dropdown-item.text1_head{:href => "#bes"} Бестселлеры
+                        %li 
+                            %a.dropdown-item.text1_head{:href => "#self"} Саморазвитие
+                        %li 
+                            %a.dropdown-item.text1_head{:href => "#art"} Культура и искусство
+                %li.nav-item 
+                    %a.nav-link.text1_head{:href => "#akc"} Акции
+                %li.nav-item
+                    %a.nav-link.text1_head{:href => "#abon"} Абонемент
+                %li.nav-item
+                    %a.nav-link.text1_head{:href => "#magz"} Контакты

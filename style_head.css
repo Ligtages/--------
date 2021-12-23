@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+.head {
+  width: 100%;
+  height: 60px;
+  margin-top: 42px;
+  background-color: none !important;
+}
+
+.head1 {
+  position: absolute;
+  height: 60px;
+  top: 0;
+  margin-top: -15px;
+  background-color: #f8f8f8;
+}
+
+.text_head {
+  font-family: play;
+  font-size: 36pt;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #242124;
+}
+
+.text1_head {
+  font-family: play;
+  font-size: 20pt;
+  color: #242124;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #242124;
+}
+
+.img_head {
+  width: 40px;
+  height: 40px;
+  border: none !important;
+}
+
+.img_log {
+  width: 170px;
+  height: 60px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:not(:disabled):not(.disabled):active,
+.navbar-toggler:not(:disabled):not(.disabled).active {
+  background-image: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.navbar-toggler {
+  margin-left: 20px;
+  margin-top: 5px;
+  background-color: #f8f8f8;
+}
+
+.menu {
+  background-color: #f8f8f8 !important;
+  border: none !important;
+}
+
+.right_head {
+  text-align: right;
+}
+
+.img_icon {
+  margin-top: 33px;
+  margin-right: 7px;
+  width: 25px;
+  height: 25px;
+}
+
+.navbar-nav {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+.cont_pod
+    .container-fluid.back_pod
+        .row
+            .col-md-4.left_pod
+                
+                %img.img_pod{:src => "img/фон2.svg"}
+            .col-md-7.right_pod
+                .text_pod Новинки месяца
+                .text1_pod 1 письмо в месяц
+                .text2_pod Рассказываем обо всех книгах, которые выйдут в ближайший месяц, и помогаем найти те самые.
+                .form-group.col-md-10
+                    %label.visually-hidden{:for => "InputEmail11"} Ваш email
+                    %input{:type => "email", :class => "form-control form form_pod", :id => "InputEmail11", :aria-describedby => "emailHelp", :placeholder => "Ваш email"}
+                    %button.btn.btn_pod.btn-js.btn-dark{:type => "submit"} Подписаться
+                    .gri1
+            .col-md-1

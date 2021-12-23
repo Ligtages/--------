@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+$dark: #242124;
+$lite: #f8f8f8;
+$copper: #ee964b;
+$alphelite: #f8f8f8de;
+$alphedark: #242124ee;
+
+@mixin btn {
+    background-image: none !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.cont_pod{
+    width: 100%;
+    
+    background: linear-gradient(#6e696e, #242124);
+    -moz-box-shadow:    inset 0 0 60px #000000b6;
+    -webkit-box-shadow: inset 0 0 60px #000000de;
+    box-shadow:         inset 0 0 60px #111111;
+}
+
+.back_pod{
+    background-image: url(img/полосы.svg)
+}
+
+.right_pod{
+    margin-top: 35px;
+}
+
+.text_pod{
+    font: {
+        family: play;
+        size: 36pt;
+        weight: bold;
+    }
+    color: $copper;
+    text-align: left;
+    line-height: 70px;
+}
+
+.text1_pod{
+    font: {
+        family: play;
+        size: 20pt;
+    }
+    
+    margin-top: -10px;
+    color: $alphelite; 
+}
+
+.text2_pod{
+    margin-top: 2%;
+    font: {
+        family: play;
+        size: 24pt;
+    }
+    line-height: 34px;
+    color: $copper;
+    
+}
+
+.text1_mag{
+    font: {
+        family: play;
+        size: 18pt;
+    }
+    text-align: left;
+    margin-top: 15px;
+}
+
+.text2_mag{
+    font: {
+        family: play;
+        size: 16pt;
+    }
+    color: $alphedark;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.img_mag {
+    width: 100%;
+    background: url('./img/mag.jpg') center / cover no-repeat;
+    height: 600px;
+}
+
+.form_pod{
+    font: {
+        family: play;}
+    border: none !important;
+    border-radius: 10px;
+    background-color: $alphelite;
+    margin-top: 5%;
+    &:focus{
+        border: none !important;
+        box-shadow: none !important;
+        outline: 0 !important;
+    }
+}
+
+.btn_pod:focus {@include btn}
+.btn_pod:hover {@include btn}
+.btn_pod:active {@include btn}
+.btn_pod:not(:disabled):not(.disabled):active {@include btn}
+.btn_pod:not(:disabled):not(.disabled).active {@include btn}
+
+.btn_pod{
+    background-color: $dark !important;
+    color: $lite !important;
+    border:$dark !important;
+    font: {
+        size: 14pt;
+        family: play;
+    }
+    border-radius: 10px;
+    margin-top: 1% !important;
+    position: absolute !important;
+    
+    &:hover{
+        background-color: $lite !important;
+        color: $copper !important;
+        box-shadow: 0 8px 8px 0 rgba(0,0,0,0.3), 0 6px 15px 0 rgba(0,0,0,0.29) !important;
+    }
+    
+    &:focus{
+        color: $lite !important;
+    }
+    
+    &:active{
+        color: $copper !important;
+    }
+}
+
+.img_pod{
+    margin-top: 20px;
+    margin-left: 10%;
+    max-width: 80%;
+    margin-bottom: 20px;
+}

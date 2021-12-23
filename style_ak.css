@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+.cont_ak {
+  background-color: #f8f8f8;
+  width: 100%;
+  background-image: url("img_ak/фон.svg");
+}
+
+.zd_ak {
+  width: 100%;
+  height: 100%;
+  background-image: url(img_ak/звездочки.svg);
+  filter: alpha(Opacity=100);
+  opacity: 1;
+}
+
+.text_ak {
+  font-family: play;
+  font-size: 36pt;
+  font-weight: bold;
+  color: #242124;
+  text-align: center;
+  line-height: 100px;
+}
+
+.text1_ak {
+  font-family: play;
+  font-size: 18pt;
+  font-weight: lighter;
+  color: #242124d0;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -22px;
+}
+
+.text2_ak {
+  font-size: 18pt;
+  font-family: play;
+  color: #242124d0;
+  text-align: center;
+}
+
+.card_ak {
+  border: none;
+  text-align: center;
+  margin: 15px 50px;
+  background-color: #24212400;
+}
